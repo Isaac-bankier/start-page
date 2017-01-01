@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Start</title>
+  </head>
+  <body style="background-color: #404040;">
+    <style>
+      .bar{
+          background-color: #505050;
+      }
+
+      .icon{
+        width: 75px;
+        height: 75px;
+        border: none;
+        margin: none;
+        border-radius: 4px;
+        background-color: #505050;
+      }
+
+      .icon:hover{
+        background-color: #303030;
+      }
+
+      .icon:active{
+        background-color: #101010;
+      }
+
+      button::-moz-focus-inner {
+        border:0;
+      }
+
+      .centered{
+        width: 50%;
+        margin: 0 auto;
+        text-align:center;
+      }
+
+      .input1{
+        float: left;
+        width: 130px;
+        box-sizing: border-box;
+        border: 2px solid #FFFFFF;
+        border-radius: 0px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('internet.svg');
+        background-position: 0px 0px;
+        background-repeat: no-repeat;
+        padding: 3px 3px 3px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+      }
+
+      .input1:focus {
+        width: 100%;
+      }
+      .input1:hover:not(:focus) {
+        width: 150px;
+      }
+
+      .input2{
+        float: left;
+        width: 130px;
+        box-sizing: border-box;
+        border: 2px solid #FFFFFF;
+        border-radius: 0px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('files.svg');
+        background-position: 0px 0px;
+        background-repeat: no-repeat;
+        padding: 3px 3px 3px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+      }
+
+      .input2:focus {
+        width: 100%;
+      }
+      .input2:hover:not(:focus) {
+        width: 150px;
+      }
+
+      .input3{
+        float: left;
+        width: 130px;
+        box-sizing: border-box;
+        border: 2px solid #FFFFFF;
+        border-radius: 0px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('terminology.svg');
+        background-position: 0px 0px;
+        background-repeat: no-repeat;
+        padding: 3px 3px 3px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+      }
+
+      .input3:focus {
+        width: 100%;
+      }
+      .input3:hover:not(:focus) {
+        width: 150px;
+      }
+
+      .input4{
+        float: left;
+        width: 130px;
+        box-sizing: border-box;
+        border: 2px solid #FFFFFF;
+        border-radius: 0px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('programming.svg');
+        background-position: 0px 0px;
+        background-repeat: no-repeat;
+        padding: 3px 3px 3px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+      }
+
+      .input4:focus {
+        width: 100%;
+      }
+      .input4:hover:not(:focus) {
+        width: 150px;
+      }
+
+      .input5{
+        float: left;
+        width: 130px;
+        box-sizing: border-box;
+        border: 2px solid #FFFFFF;
+        border-radius: 0px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('vlc.svg');
+        background-position: 0px 0px;
+        background-repeat: no-repeat;
+        padding: 3px 3px 3px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+      }
+
+      .input5:focus {
+        width: 100%;
+      }
+      .input5:hover:not(:focus) {
+        width: 150px;
+      }
+
+      .input6{
+        float: left;
+        width: 130px;
+        box-sizing: border-box;
+        border: 2px solid #FFFFFF;
+        border-radius: 0px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('music.svg');
+        background-position: 0px 0px;
+        background-repeat: no-repeat;
+        padding: 3px 3px 3px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+      }
+
+      .input6:focus {
+        width: 100%;
+      }
+      .input6:hover:not(:focus) {
+        width: 150px;
+      }
+
+      .input7{
+        float: left;
+        width: 130px;
+        box-sizing: border-box;
+        border: 2px solid #FFFFFF;
+        border-radius: 0px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('torrents.svg');
+        background-position: 0px 0px;
+        background-repeat: no-repeat;
+        padding: 3px 3px 3px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+      }
+
+      .input7:focus {
+        width: 100%;
+      }
+      .input7:hover:not(:focus) {
+        width: 150px;
+      }
+
+      .input8{
+        float: left;
+        width: 130px;
+        box-sizing: border-box;
+        border: 2px solid #FFFFFF;
+        border-radius: 0px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('streaming.svg');
+        background-position: 0px 0px;
+        background-repeat: no-repeat;
+        padding: 3px 3px 3px 40px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+      }
+
+      .input8:focus {
+        width: 100%;
+      }
+      .input8:hover:not(:focus) {
+        width: 150px;
+      }
+
+      .search{
+        overflow: hidden;
+        width:100%;
+        height:30px;
+        color: #FFFFFF;
+        white-space: nowrap;
+        text-align: right;
+      }
+    </style>
+    <div class="centered bar">
+      <button class="icon" onclick="window.location = 'https://www.google.com';"> <img src="internet.svg" /></button>
+      <button class="icon" onclick="window.location = 'https://www.imgur.com';"> <img src="files.svg"  /></button>
+      <button class="icon" onclick="window.location = 'https://news.ycombinator.com/';"> <img src="terminology.svg" /></button>
+      <button class="icon" onclick="window.location = 'https://www.github.com';"> <img src="programming.svg" /></button>
+      <button class="icon" onclick="window.location = 'https://www.youtube.com';"> <img src="vlc.svg" /></button>
+      <button class="icon" onclick="window.location = 'https://www.soundcloud.com';"> <img src="music.svg" /></button>
+      <button class="icon" onclick="window.location = 'https://yifyme.com/';"> <img src="torrents.svg" /></button>
+      <button class="icon" onclick="window.location = 'https://www.reddit.com';"> <img src="streaming.svg" /></button>
+    </div>
+    <br />
+    <br />
+    <div style="background-color: #404040;">
+      <div class="centered">
+        <div class="search"><form action="https://www.google.com/search"><input autocomplete="off" class="input1" type="text" name="q" placeholder="Search.." ></form>&#160;Search Google for text.</div>
+        <br />
+        <div class="search"><form action="https://imgur.com/search"><input autocomplete="off" class="input2" type="text" name="q" placeholder="Search.."></form>&#160;Search Imgur for Pictures.</div>
+        <br />
+        <div class="search"><form action="https://hn.algolia.com"><input autocomplete="off" class="input3" type="text" name="query" placeholder="Search.."></form>&#160;Search Hacker News for posts.</div>
+        <br />
+        <div class="search"><form action="https://github.com/search"><input autocomplete="off" class="input4" type="text" name="q" placeholder="Search.."></form>&#160;Search Github for programs.</div>
+        <br />
+        <div class="search"><form action="https://www.youtube.com/results"><input autocomplete="off" class="input5" type="text" name="search_query" placeholder="Search.."></form>&#160;Search Youtube for videos.</div>
+        <br />
+        <div class="search"><form action="https://soundcloud.com/search"><input autocomplete="off" class="input6" type="text" name="q" placeholder="Search.."></form>&#160;Search Sound Cloud for music.</div>
+        <br />
+        <div class="search"><form action="https://yifyme.com/search"><input autocomplete="off" class="input7" type="text" name="query" placeholder="Search.."></form>&#160;Search Yifi torrents for movies.</div>
+        <br />
+        <div class="search"><form action="https://www.reddit.com/search"><input autocomplete="off" class="input8" type="text" name="q" placeholder="Search.."></form>&#160;Search Reddit posts.</div>
+      </div>
+    </div>
+  </body>
+</html>
