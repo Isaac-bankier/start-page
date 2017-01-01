@@ -1,2 +1,2 @@
 # start-page
-Start Page for my web browser.
+A start page for web browsers.
